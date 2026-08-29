@@ -1,0 +1,4 @@
+Model,Mean_Accuracy_Percentage,Standard_Deviation_Percentage
+Logistic Regression,90.945,0.23006520814760345
+Decision Tree,99.995,0.004472135954999087
+Random Forest,99.995,0.0031622776601680307

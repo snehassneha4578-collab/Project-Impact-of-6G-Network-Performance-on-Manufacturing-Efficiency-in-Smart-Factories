@@ -1,0 +1,4 @@
+Network_Latency_ms,Packet_Loss_%,Temperature_C,Vibration_Hz,Power_Consumption_kW,Quality_Control_Defect_Rate_%,Production_Speed_units_per_hr,Predictive_Maintenance_Score,Error_Rate_%,Predicted_Efficiency_Status,Prediction_Confidence
+20,1.5,70,35,50,2,100,85,1,Low,95.0
+40,4.0,78,50,60,5,85,65,4,Low,95.0
+80,8.0,90,70,75,8,60,45,7,Low,97.0

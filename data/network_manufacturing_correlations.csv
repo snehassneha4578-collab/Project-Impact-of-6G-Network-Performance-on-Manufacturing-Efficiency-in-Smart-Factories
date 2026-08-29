@@ -1,0 +1,7 @@
+Relationship,Correlation
+Latency vs Production Speed,-0.0010496586330944727
+Packet Loss vs Production Speed,-0.007118679907857104
+Latency vs Error Rate,9.808559907956255e-05
+Packet Loss vs Error Rate,-0.002406773081347314
+Latency vs Defect Rate,-0.004356115380632584
+Packet Loss vs Defect Rate,-0.00489688118166696

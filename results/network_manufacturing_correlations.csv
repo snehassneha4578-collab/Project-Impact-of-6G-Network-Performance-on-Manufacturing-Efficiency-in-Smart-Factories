@@ -1,0 +1,7 @@
+Relationship,Correlation
+Latency vs Production,-0.001
+Packet Loss vs Production,-0.0071
+Latency vs Defect Rate,-0.0044
+Packet Loss vs Defect Rate,-0.0049
+Error Rate vs Production,0.0061
+Error Rate vs Defect Rate,-0.0015

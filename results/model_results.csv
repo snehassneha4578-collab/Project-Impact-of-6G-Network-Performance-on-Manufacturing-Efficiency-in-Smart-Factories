@@ -1,0 +1,7 @@
+Metric,Score
+Accuracy,0.9999
+Precision,0.9999
+Recall,0.9999
+F1 Score,0.9999
+Mean CV Accuracy,0.9999500000000001
+CV Standard Deviation,4.472135954999087e-05

@@ -1,0 +1,12 @@
+Section,Result
+Dataset,"100,000 rows"
+Network Analysis,Completed
+Manufacturing Analysis,Completed
+ML Accuracy,0.9999
+ML Precision,0.9999
+ML Recall,0.9999
+ML F1,0.9999
+CV Mean,1.0000
+CV Std,0.0000
+Test Samples,"20,000"
+Incorrect Predictions,2
