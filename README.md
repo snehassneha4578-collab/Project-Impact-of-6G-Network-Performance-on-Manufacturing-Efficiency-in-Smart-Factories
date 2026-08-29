@@ -1,468 +1,429 @@
-# 📡 Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories
+# 🚀 Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories
 
-> **A Data-Driven Analysis of 6G Network Performance and Smart Manufacturing Efficiency using Machine Learning**
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-6G%20Smart%20Factory-6f42c1?style=for-the-badge" alt="Project">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Enabled-ff6b6b?style=for-the-badge" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Status-Completed-28a745?style=for-the-badge" alt="Status">
+</p>
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Project Type](https://img.shields.io/badge/Project-Software%20%7C%20ML-green)
-![Domain](https://img.shields.io/badge/Domain-6G%20%7C%20IIoT%20%7C%20Smart%20Factory-purple)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
-![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
+<p align="center">
+  <b>📡 Data-Driven Analysis of 6G Network Performance and Smart Factory Manufacturing Efficiency</b>
+</p>
 
 ---
 
-## 📌 Project Overview
+## 🌟 Project Overview
 
-This project investigates how **6G network performance can influence manufacturing efficiency in smart factories** using data analytics and machine learning.
+This project investigates how **6G network performance parameters influence manufacturing efficiency in smart factories** using data analysis, statistical methods, visualization, and machine learning.
 
-Modern smart factories rely on Industrial Internet of Things (IIoT) devices, autonomous machines, sensors, robots, and real-time monitoring systems. These systems require communication networks with **low latency, high throughput, low packet loss, high reliability, and high availability**.
+The project connects **next-generation wireless communication concepts** with **industrial manufacturing analytics** to understand how network conditions such as latency, throughput, reliability, bandwidth, and related performance indicators can affect manufacturing outcomes.
 
-The project analyzes the relationship between important **6G network performance parameters** and **smart manufacturing performance indicators**.
-
-The objective is to identify patterns and relationships in the data and use Machine Learning models to predict manufacturing performance under different network conditions.
+The complete project follows a structured **30-day implementation workflow**, covering data preprocessing, exploratory analysis, network KPI analysis, manufacturing KPI analysis, correlation analysis, machine learning, model evaluation, research findings, and project documentation.
 
 ---
 
 ## 🎯 Objectives
 
-* 📡 Analyze 6G network performance parameters.
-* 🏭 Analyze smart-factory manufacturing KPIs.
-* 📊 Perform data cleaning and exploratory data analysis.
-* 🔗 Study relationships between network performance and manufacturing efficiency.
-* 📈 Perform correlation and statistical analysis.
-* 🤖 Develop Machine Learning models for prediction.
-* 📊 Evaluate and compare model performance.
-* 🖥️ Build an interactive Streamlit dashboard.
-* 📄 Prepare research-oriented project documentation.
-* 💻 Maintain the complete project workflow using Git and GitHub.
+* 📡 Analyze **6G network performance parameters**
+* 🏭 Study their relationship with **smart-factory manufacturing efficiency**
+* 🧹 Perform reliable **data preprocessing and cleaning**
+* 📊 Conduct **Exploratory Data Analysis (EDA)**
+* 📈 Calculate and analyze important **network and manufacturing KPIs**
+* 🔗 Identify relationships between network performance and production metrics
+* 🤖 Apply **Machine Learning** for manufacturing performance prediction
+* 📉 Evaluate model performance using appropriate metrics
+* 📝 Generate research-oriented findings and summaries
+* 📂 Organize the complete project into a reproducible GitHub repository
 
 ---
 
-## 🔄 Project Workflow
+## 🧠 Key Concept
+
+### 📡 6G Network → 🏭 Smart Factory → 📊 Manufacturing Efficiency
+
+The project studies the relationship between:
+
+| 📡 Network Performance | 🏭 Manufacturing Performance |
+| ---------------------- | ---------------------------- |
+| Latency                | Production efficiency        |
+| Throughput             | Production speed             |
+| Reliability            | Operational stability        |
+| Bandwidth              | Communication capability     |
+| Network performance    | Manufacturing outcomes       |
+| Connectivity quality   | Smart-factory efficiency     |
+
+---
+
+## 🔬 Project Workflow
 
 ```text
-Dataset
+📥 Dataset
    ↓
-Data Cleaning
+🧹 Data Cleaning & Preprocessing
    ↓
-Exploratory Data Analysis
+🔍 Exploratory Data Analysis
    ↓
-6G Network Analysis
+📡 6G Network KPI Analysis
    ↓
-Manufacturing KPI Analysis
+🏭 Manufacturing KPI Analysis
    ↓
-Correlation & Statistical Analysis
+🔗 Correlation & Relationship Analysis
    ↓
-Machine Learning
+🤖 Machine Learning Model
    ↓
-Model Evaluation
+📊 Model Evaluation
    ↓
-Streamlit Dashboard
+📈 Predictions & Error Analysis
    ↓
-Research Documentation
+📝 Research Findings & Summary
    ↓
-GitHub Documentation
+📚 Documentation
    ↓
-Final Project
+🚀 Final Project
 ```
 
 ---
 
-## 📊 Key Parameters
-
-### 📡 6G Network KPIs
-
-* Latency
-* Throughput
-* Packet Loss
-* Bandwidth
-* Reliability
-* Network Availability
-
-### 🏭 Manufacturing KPIs
-
-* Production Efficiency
-* Machine Utilization
-* Downtime
-* Production Rate
-* Quality / Defect Rate
-* Energy Efficiency
-
----
-
-## 🔗 Network Performance vs Manufacturing Efficiency
-
-The project investigates how network conditions can affect smart-factory operations.
+## 🗂️ Project Structure
 
 ```text
-Lower Latency
-      ↓
-Faster Machine Communication
-      ↓
-Better Real-Time Control
-      ↓
-Reduced Operational Delays
-      ↓
-Higher Manufacturing Efficiency
+6G-Smart-Factory-Network-Analysis/
+│
+├── 📄 README.md
+│
+├── 🐍 day1.py
+├── 🐍 day2.py
+├── 🐍 day3.py
+├── 🐍 day4.py
+├── 🐍 day5.py
+├── 🐍 day6.py
+├── 🐍 day7.py
+├── 🐍 day8.py
+├── 🐍 day9.py
+├── 🐍 day10.py
+├── 🐍 day11.py
+├── 🐍 day12.py
+├── 🐍 day13.py
+├── 🐍 day14.py
+├── 🐍 day15.py
+├── 🐍 day16.py
+├── 🐍 day17.py
+├── 🐍 day18.py
+├── 🐍 day19.py
+├── 🐍 day20.py
+├── 🐍 day21.py
+├── 🐍 day22.py
+├── 🐍 day23.py
+├── 🐍 day24.py
+├── 🐍 day25.py
+├── 🐍 day26.py
+├── 🐍 day27.py
+├── 🐍 day28.py
+├── 🐍 day29.py
+├── 🐍 day30.py
+│
+├── 📊 results/
+│   ├── manufacturing_findings.csv
+│   ├── model_results.csv
+│   ├── network_findings.csv
+│   ├── network_manufacturing_correlations.csv
+│   ├── network_manufacturing_relationships.csv
+│   ├── network_relationships.csv
+│   ├── prediction_errors.csv
+│   ├── predictions.csv
+│   ├── project_kpis.csv
+│   └── research_summary.csv
+│
+└── 📦 Project datasets & ML artifacts
 ```
-
-Similarly:
-
-```text
-Higher Packet Loss
-      ↓
-Communication Errors
-      ↓
-Data Transmission Problems
-      ↓
-Machine/Process Delays
-      ↓
-Potential Reduction in Efficiency
-```
-
-The actual relationships are determined through **data analysis, visualization, correlation analysis, and machine learning** rather than assumptions.
-
----
-
-## 🤖 Machine Learning
-
-Machine Learning is used to investigate whether 6G network-performance parameters can help predict manufacturing efficiency.
-
-### Models
-
-* Linear Regression
-* Decision Tree
-* Random Forest
-* Gradient Boosting
-* Other suitable Scikit-learn models based on the dataset
-
-### Model Evaluation
-
-For regression:
-
-* **R² Score**
-* **Mean Absolute Error (MAE)**
-* **Root Mean Squared Error (RMSE)**
-
-For classification problems, suitable classification metrics can be used where applicable.
 
 ---
 
 ## 📊 Data Analysis
 
-### Data Cleaning
+The project performs multiple levels of analysis:
 
+### 🧹 Data Preprocessing
+
+* Dataset inspection
+* Data type verification
 * Missing-value analysis
 * Duplicate detection
-* Data-type verification
+* Statistical summary
+* Target-variable identification
 * Data consistency checks
-* Feature preparation
 
-### Exploratory Data Analysis
+### 🔎 Exploratory Data Analysis
 
-* Statistical summaries
-* Distribution analysis
-* Network KPI analysis
-* Manufacturing KPI analysis
-* Relationship visualization
+The analysis investigates:
 
-### Correlation Analysis
-
-Correlation analysis is performed to investigate relationships between network and manufacturing KPIs.
-
-```text
-6G Network KPIs
-        ↓
-Latency
-Throughput
-Packet Loss
-Bandwidth
-Reliability
-Availability
-        ↓
-Manufacturing KPIs
-        ↓
-Efficiency
-Utilization
-Downtime
-Production Rate
-Quality
-```
+* Distribution of important variables
+* Manufacturing performance
+* Network performance
+* Production speed
+* Relationships between variables
+* Potential patterns and trends
 
 ---
 
-## 🖥️ Streamlit Dashboard
+## 📡 Network KPI Analysis
 
-An interactive **Streamlit dashboard** was developed to provide an easy-to-understand interface for exploring the project results.
+Important network-related indicators are analyzed to understand smart-factory communication performance.
 
-### Dashboard Features
+Examples include:
 
-* 📡 Network KPI statistics
-* 🏭 Manufacturing KPI statistics
-* 📊 Data visualizations
-* 🔗 Correlation analysis
-* 🤖 Machine Learning predictions
-* 📈 Model performance evaluation
-* 💡 Key project findings
+* ⚡ Latency
+* 🚀 Throughput
+* 📶 Network performance
+* 🔗 Connectivity-related parameters
+* 🛡️ Reliability indicators
+
+The results are stored in structured CSV files inside the `results/` directory.
+
+---
+
+## 🏭 Manufacturing KPI Analysis
+
+Manufacturing-related indicators are analyzed to measure production performance.
+
+Examples include:
+
+* Production speed
+* Manufacturing efficiency
+* Production-related performance indicators
+* Operational measurements
+* Network-to-production relationships
+
+---
+
+## 🔗 Correlation & Relationship Analysis
+
+Statistical analysis is used to investigate relationships between:
+
+```text
+6G Network Performance
+        ↓
+Communication Quality
+        ↓
+Smart Factory Operations
+        ↓
+Manufacturing Performance
+```
+
+Generated outputs include:
+
+* `network_findings.csv`
+* `network_relationships.csv`
+* `network_manufacturing_correlations.csv`
+* `network_manufacturing_relationships.csv`
+* `manufacturing_findings.csv`
+
+---
+
+## 🤖 Machine Learning
+
+Machine Learning is used to predict manufacturing performance from available project features.
+
+### ML Pipeline
+
+```text
+📊 Dataset
+   ↓
+🧹 Preprocessing
+   ↓
+🎯 Feature Selection
+   ↓
+✂️ Train/Test Split
+   ↓
+🤖 Model Training
+   ↓
+🔮 Prediction
+   ↓
+📏 Evaluation
+   ↓
+📊 Error Analysis
+```
+
+The project includes Random Forest-based machine learning artifacts and prediction outputs.
+
+---
+
+## 📈 Model Evaluation
+
+The project evaluates the trained model using appropriate performance measurements.
+
+Generated outputs include:
+
+* `model_results.csv`
+* `predictions.csv`
+* `prediction_errors.csv`
+
+These files allow the model predictions and errors to be examined independently.
+
+---
+
+## 📁 Results
+
+The `results/` directory contains the major analytical outputs generated during the project.
+
+| File                                      | Purpose                            |
+| ----------------------------------------- | ---------------------------------- |
+| `manufacturing_findings.csv`              | Manufacturing analysis findings    |
+| `model_results.csv`                       | Machine learning model results     |
+| `network_findings.csv`                    | Network performance findings       |
+| `network_manufacturing_correlations.csv`  | Network/manufacturing correlations |
+| `network_manufacturing_relationships.csv` | Relationship analysis              |
+| `network_relationships.csv`               | Network relationship analysis      |
+| `prediction_errors.csv`                   | Prediction error analysis          |
+| `predictions.csv`                         | Model predictions                  |
+| `project_kpis.csv`                        | Project KPI summary                |
+| `research_summary.csv`                    | Research-oriented project summary  |
+
+---
+
+## 🧪 30-Day Implementation
+
+| Phase                     |  Days | Focus                                 |
+| ------------------------- | ----: | ------------------------------------- |
+| 📥 Foundation             |   1–2 | Dataset understanding & project setup |
+| 🧹 Preparation            |   3–5 | Cleaning & preprocessing              |
+| 🔍 EDA                    |   6–9 | Exploratory analysis                  |
+| 📡 Network Analysis       | 10–13 | Network KPI analysis                  |
+| 🏭 Manufacturing Analysis | 14–15 | Manufacturing KPIs                    |
+| 🔗 Relationship Analysis  | 16–18 | Correlation & relationships           |
+| 🤖 Machine Learning       | 19–23 | Model development & evaluation        |
+| 📊 Results                | 24–26 | Predictions & analytical outputs      |
+| 📝 Documentation          | 27–29 | Findings, packaging & documentation   |
+| 🏆 Finalization           |    30 | Final project integration             |
+
+### ✅ Completion
+
+**30 / 30 Days Completed**
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Category           | Technologies              |
-| ------------------ | ------------------------- |
-| Programming        | Python                    |
-| Data Processing    | Pandas, NumPy             |
-| Data Visualization | Matplotlib                |
-| Machine Learning   | Scikit-learn              |
-| Dashboard          | Streamlit                 |
-| Development        | Jupyter Notebook, VS Code |
-| Version Control    | Git, GitHub               |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</p>
+
+### Core Technologies
+
+* 🐍 Python
+* 🐼 Pandas
+* 🔢 NumPy
+* 📊 Matplotlib
+* 🤖 Scikit-learn
+* 🔧 Git
+* 🌐 GitHub
+* 📁 CSV-based analytical outputs
 
 ---
 
-## 📁 Repository Structure
+## 💡 Key Learning Outcomes
 
-```text
-6G-Smart-Factory-Network-Analysis/
-│
-├── dataset/
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_network_analysis.ipynb
-│   └── 04_machine_learning.ipynb
-│
-├── src/
-│   ├── data_processing.py
-│   ├── analysis.py
-│   └── model.py
-│
-├── dashboard/
-│   └── app.py
-│
-├── models/
-│
-├── visualizations/
-│
-├── research/
-│
-├── README.md
-└── requirements.txt
-```
+Through this project, the following skills were developed:
 
----
+### 📡 Wireless Communication
 
-## ▶️ How to Run the Project
+* Understanding network-performance concepts
+* 6G-oriented communication analysis
+* Network KPI interpretation
+* Smart-factory connectivity concepts
 
-### 1. Clone the Repository
+### 📊 Data Science
 
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd 6G-Smart-Factory-Network-Analysis
-```
-
-### 3. Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### 4. Activate the Virtual Environment
-
-**Windows:**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux / macOS:**
-
-```bash
-source venv/bin/activate
-```
-
-### 5. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6. Run the Streamlit Dashboard
-
-```bash
-streamlit run dashboard/app.py
-```
-
----
-
-## 📈 Project Results
-
-The completed project provides a data-driven framework for studying the relationship between **6G communication performance and smart manufacturing efficiency**.
-
-The analysis combines:
-
-* Data Analytics
-* Statistical Analysis
-* Correlation Analysis
-* Machine Learning
-* Data Visualization
-* Interactive Dashboarding
-
-The ML component provides a predictive perspective, while the dashboard presents the results in an accessible format.
-
----
-
-## 🌟 Key Learning Outcomes
-
-### 📡 Communication & 6G
-
-* Understanding of network-performance KPIs
-* Relationship between communication quality and industrial applications
-* Application of wireless-network concepts to smart manufacturing
-
-### 🐍 Python & Data Analytics
-
-* Pandas
-* NumPy
-* Data cleaning
+* Data preprocessing
 * Exploratory Data Analysis
 * Statistical analysis
+* Correlation analysis
 * Data visualization
 
 ### 🤖 Machine Learning
 
-* Feature selection
+* Feature preparation
 * Model training
-* Model evaluation
 * Prediction
-* Model comparison
+* Model evaluation
+* Error analysis
 
-### 🖥️ Tools & Deployment
+### 💻 Software & Project Development
 
-* Streamlit dashboard development
-* Git
-* GitHub
-* Jupyter Notebook
-* VS Code
-
----
-
-## 🏭 Real-World Relevance
-
-Future smart factories are expected to depend heavily on highly reliable and low-latency communication networks.
-
-Potential applications include:
-
-* Industrial robots
-* Autonomous machines
-* Real-time monitoring
-* Predictive maintenance
-* Industrial IoT
-* Digital twins
-* Automated production systems
-* Remote machine control
+* Python programming
+* Structured project organization
+* Git/GitHub version control
+* Reproducible analysis
+* Technical documentation
 
 ---
 
-## 🔮 Future Scope
+## 🌍 Real-World Applications
 
-The project can be further extended with:
+This project can be extended toward:
 
-* Real-time IoT sensor data
-* ESP32-based industrial monitoring
-* MQTT communication
-* Real-time 5G/6G network measurements
-* Advanced ML models
-* Deep Learning
-* Time-series prediction
-* Digital Twin integration
-* Edge AI
-* Real-time anomaly detection
-* Cloud deployment
-* Industrial hardware integration
+* 🏭 Smart manufacturing
+* 📡 Industrial 6G networks
+* 🤖 Industrial automation
+* 🧠 Predictive manufacturing analytics
+* 📊 Industrial IoT
+* ⚙️ Digital factories
+* 🚀 Intelligent production systems
+* 📶 Network-aware industrial optimization
 
 ---
 
-## ⚠️ Project Limitations
+## 🔮 Future Enhancements
 
-This project is primarily a **data-driven analytical and machine-learning study**.
+Possible future improvements include:
 
-The results depend on the quality, size, and characteristics of the available dataset.
-
-Actual commercial 6G networks are still an evolving research area, so the analysis should be interpreted as a **6G-oriented smart-manufacturing study and predictive framework**, rather than a measurement of a deployed commercial 6G network.
-
----
-
-## 🎓 Academic & Portfolio Value
-
-This project combines multiple areas of Electronics and Communication Engineering with modern AI technologies:
-
-```text
-ECE
- │
- ├── Wireless Communication
- │
- ├── 6G Networks
- │
- ├── Industrial IoT
- │
- ├── Smart Manufacturing
- │
- └── Machine Learning
-          │
-          ├── Python
-          ├── Data Analytics
-          ├── Scikit-learn
-          └── Streamlit
-```
-
-This makes the project relevant for **ECE, Embedded Systems, Wireless Communication, IoT, Data Analytics, and AI/ML-oriented roles**.
+* 📡 Real-time 6G network monitoring
+* 📊 Interactive Streamlit dashboard
+* 🤖 Advanced ML and deep-learning models
+* 🧠 Explainable AI for manufacturing decisions
+* 🌐 Real-time IoT sensor integration
+* ☁️ Cloud deployment
+* 📈 Live KPI monitoring
+* 🚨 Automated anomaly detection
+* 🔔 Real-time industrial alerts
 
 ---
 
-## 📊 Project Completion
+## 🏆 Project Achievement
 
-| Phase                      | Status       |
-| -------------------------- | ------------ |
-| Project Setup              | 🟢 Completed |
-| Dataset                    | 🟢 Completed |
-| Data Cleaning              | 🟢 Completed |
-| EDA                        | 🟢 Completed |
-| 6G Network Analysis        | 🟢 Completed |
-| Manufacturing KPI Analysis | 🟢 Completed |
-| Correlation Analysis       | 🟢 Completed |
-| Machine Learning           | 🟢 Completed |
-| Model Evaluation           | 🟢 Completed |
-| Streamlit Dashboard        | 🟢 Completed |
-| Research Documentation     | 🟢 Completed |
-| GitHub Documentation       | 🟢 Completed |
-| Final Submission           | 🟢 Completed |
+<p align="center">
+
+### 🎯 30-DAY PROJECT COMPLETED
+
+### 📡 6G + 🏭 SMART FACTORY + 🤖 MACHINE LEARNING + 📊 DATA ANALYTICS
+
+</p>
 
 ---
 
-## 👩‍💻 Project Status
+## 👩‍💻 Author
 
-### 🟢 COMPLETED
+**Sneha S**
 
-**Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories**
+Electronics & Communication Engineering
 
-A completed data-driven **6G Smart Factory Network Analysis and Machine Learning project** covering data analysis, network KPI analysis, manufacturing KPI analysis, correlation analysis, machine learning, model evaluation, dashboard development, and documentation.
-
----
-
-## 📜 License
-
-This project is created for **educational, research, portfolio, and academic purposes**.
+📍 Karnataka, India
 
 ---
 
-## ⭐ Acknowledgement
+## ⭐ Support
 
-This project was developed as a **Machine Learning / Manufacturing Analytics project**, combining concepts from **6G communication networks, Industrial IoT, smart manufacturing, data analytics, and machine learning**.
+If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+---
+
+<p align="center">
+  <b>🚀 Building Intelligent Smart Factories with 6G & AI</b>
+</p>
