@@ -1,4 +1,4 @@
-from reportlab.lib.pagesizes import A4
+﻿from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.units import inch
@@ -141,15 +141,16 @@ while i < len(lines):
     if line.startswith("- "):
         text = line[2:]
         text = re.sub(r"\*\*(.*?)\*\*", r"<b>\1</b>", text)
-        story.append(Paragraph("• " + text, bullet_style))
+        story.append(Paragraph("- " + text, bullet_style))
         i += 1
         continue
 
     # Numbered list
     if re.match(r"^\d+\.\s", line):
-        text = re.sub(r"^\d+\.\s", "", line)
+        number = re.match(r"^(\d+)\.", line).group(1)
+        text = re.sub(r"^\d+\.\s*", "", line)
         text = re.sub(r"\*\*(.*?)\*\*", r"<b>\1</b>", text)
-        story.append(Paragraph("• " + text, bullet_style))
+        story.append(Paragraph(number + ". " + text, body_style))
         i += 1
         continue
 

@@ -168,7 +168,7 @@ The machine-learning workflow follows the sequence:
 
 
 
-**Dataset â†’ Preprocessing â†’ Feature Selection â†’ Train/Test Split â†’ Model Training â†’ Prediction â†’ Evaluation â†’ Error Analysis**
+**Dataset -> Preprocessing -> Feature Selection -> Train/Test Split -> Model Training -> Prediction -> Evaluation -> Error Analysis**
 
 
 
@@ -251,6 +251,8 @@ The objective is to identify patterns in manufacturing performance and investiga
 
 
 A central component of the project is the analysis of relationships between network-performance indicators and manufacturin
+
+
 
 
 
