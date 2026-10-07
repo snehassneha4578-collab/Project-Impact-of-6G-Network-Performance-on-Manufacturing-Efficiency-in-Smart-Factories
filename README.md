@@ -1,42 +1,49 @@
-# 🚀 6G Smart Factory Network Analysis & Machine Learning
+﻿# 🚀 6G Smart Factory Network Analysis & Machine Learning
+
+## 🔴 LIVE STREAMLIT DASHBOARD
+
+👉 https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/
+
+---
+# ðŸš€ 6G Smart Factory Network Analysis & Machine Learning
 
 <p align="center">
 
-# 📡 Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories
+# ðŸ“¡ Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories
 
-### 🔥 AI • 6G • Smart Manufacturing • Machine Learning • Network Analytics
+### ðŸ”¥ AI â€¢ 6G â€¢ Smart Manufacturing â€¢ Machine Learning â€¢ Network Analytics
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR-LIVE-STREAMLIT-URL)
 
-**🌐 LIVE DASHBOARD:** YOUR-LIVE-STREAMLIT-URL
+**ðŸŒ LIVE DASHBOARD:** YOUR-LIVE-STREAMLIT-URL
 
-**💻 GitHub Repository:** https://github.com/snehassneha4578-collab/Project-Impact-of-6G-Network-Performance-on-Manufacturing-Efficiency-in-Smart-Factories
+**ðŸ’» GitHub Repository:** https://github.com/snehassneha4578-collab/Project-Impact-of-6G-Network-Performance-on-Manufacturing-Efficiency-in-Smart-Factories
 
 </p>
 
 ---
 
-# 🌟 PROJECT OVERVIEW
+# ðŸŒŸ PROJECT OVERVIEW
 
 This project investigates how **6G network performance directly affects manufacturing efficiency in smart factories**.
 
 The project combines:
 
-- 📡 6G Network KPI Analysis
-- 🏭 Smart Manufacturing Analysis
-- 📊 Exploratory Data Analysis
-- 🔗 Network–Manufacturing Relationship Analysis
-- 🤖 Machine Learning
-- 📈 Prediction and Error Analysis
-- 🧠 Feature Importance
-- 📄 IEEE-style Research Paper
-- 🚀 Interactive Streamlit Dashboard
+- ðŸ“¡ 6G Network KPI Analysis
+- ðŸ­ Smart Manufacturing Analysis
+- ðŸ“Š Exploratory Data Analysis
+- ðŸ”— Networkâ€“Manufacturing Relationship Analysis
+- ðŸ¤– Machine Learning
+- ðŸ“ˆ Prediction and Error Analysis
+- ðŸ§  Feature Importance
+- ðŸ“„ IEEE-style Research Paper
+- ðŸš€ Interactive Streamlit Dashboard
 
 The complete project was developed as a **30-day end-to-end data science and machine learning workflow**.
 
 ---
 
-# 🎯 PROJECT OBJECTIVES
+# ðŸŽ¯ PROJECT OBJECTIVES
 
 - Analyze important 6G network performance indicators.
 - Study manufacturing efficiency indicators.
@@ -50,17 +57,17 @@ The complete project was developed as a **30-day end-to-end data science and mac
 
 ---
 
-# 🔄 OVERALL PROJECT WORKFLOW
+# ðŸ”„ OVERALL PROJECT WORKFLOW
 
 ![Overall Project Framework](research_paper/Figure1_Overall_Framework.png)
 
 ### Workflow
 
-**Data → Preprocessing → EDA → Network Analysis → Manufacturing Analysis → Relationship Analysis → Machine Learning → Evaluation → Research Findings → Dashboard**
+**Data â†’ Preprocessing â†’ EDA â†’ Network Analysis â†’ Manufacturing Analysis â†’ Relationship Analysis â†’ Machine Learning â†’ Evaluation â†’ Research Findings â†’ Dashboard**
 
 ---
 
-# 📡 1. 6G NETWORK KPI ANALYSIS
+# ðŸ“¡ 1. 6G NETWORK KPI ANALYSIS
 
 The project analyzes important network performance indicators such as:
 
@@ -88,7 +95,7 @@ The project analyzes important network performance indicators such as:
 
 ---
 
-# 🏭 2. MANUFACTURING EFFICIENCY ANALYSIS
+# ðŸ­ 2. MANUFACTURING EFFICIENCY ANALYSIS
 
 Manufacturing performance is analyzed using:
 
@@ -123,11 +130,11 @@ Manufacturing performance is analyzed using:
 
 ---
 
-# 🔗 3. NETWORK × MANUFACTURING RELATIONSHIP
+# ðŸ”— 3. NETWORK Ã— MANUFACTURING RELATIONSHIP
 
 This section investigates how network conditions influence manufacturing performance.
 
-## Network–Manufacturing Relationship
+## Networkâ€“Manufacturing Relationship
 
 ![Network Manufacturing Relationship](research_paper/Figure5_Network_Manufacturing_Relationship.png)
 
@@ -161,7 +168,7 @@ This section investigates how network conditions influence manufacturing perform
 
 ---
 
-# 🤖 4. MACHINE LEARNING
+# ðŸ¤– 4. MACHINE LEARNING
 
 Machine learning is used to predict manufacturing efficiency classes based on network and manufacturing-related features.
 
@@ -171,11 +178,11 @@ Machine learning is used to predict manufacturing efficiency classes based on ne
 
 ### Machine Learning Pipeline
 
-**Feature Preparation → Encoding → Train/Test Split → Model Training → Cross Validation → Prediction → Evaluation → Error Analysis**
+**Feature Preparation â†’ Encoding â†’ Train/Test Split â†’ Model Training â†’ Cross Validation â†’ Prediction â†’ Evaluation â†’ Error Analysis**
 
 ---
 
-# 📊 5. ML MODEL COMPARISON
+# ðŸ“Š 5. ML MODEL COMPARISON
 
 ![ML Model Comparison](research_paper/Figure6_ML_Model_Comparison.png)
 
@@ -191,7 +198,7 @@ Generated results include:
 
 ---
 
-# 🧠 6. FEATURE IMPORTANCE
+# ðŸ§  6. FEATURE IMPORTANCE
 
 ![Feature Importance](data/feature_importance.png)
 
@@ -199,7 +206,7 @@ Feature importance helps identify which variables contribute most strongly to ma
 
 ---
 
-# 📈 7. ADDITIONAL DATA VISUALIZATIONS
+# ðŸ“ˆ 7. ADDITIONAL DATA VISUALIZATIONS
 
 ## Efficiency Percentage
 
@@ -209,55 +216,55 @@ Feature importance helps identify which variables contribute most strongly to ma
 
 ![Network Relationships](data/network_relationships.png)
 
-## Network–Manufacturing Correlations
+## Networkâ€“Manufacturing Correlations
 
 ![Network Manufacturing Correlations](data/network_manufacturing_correlations.png)
 
 ---
 
-# 📄 8. RESEARCH PAPER
+# ðŸ“„ 8. RESEARCH PAPER
 
 ## IEEE-Style Research Paper
 
-📘 **6G Smart Factory Network Analysis & Machine Learning**
+ðŸ“˜ **6G Smart Factory Network Analysis & Machine Learning**
 
 The complete research paper is available here:
 
-👉 [Open Research Paper](research_paper/6G_Smart_Factory_IEEE_Research_Paper.pdf)
+ðŸ‘‰ [Open Research Paper](research_paper/6G_Smart_Factory_IEEE_Research_Paper.pdf)
 
 ### Research Paper Figures
 
-#### Figure 1 — Overall Framework
+#### Figure 1 â€” Overall Framework
 
 ![Figure 1](research_paper/Figure1_Overall_Framework.png)
 
-#### Figure 2 — Machine Learning Workflow
+#### Figure 2 â€” Machine Learning Workflow
 
 ![Figure 2](research_paper/Figure2_ML_Workflow.png)
 
-#### Figure 3 — Network KPI Analysis
+#### Figure 3 â€” Network KPI Analysis
 
 ![Figure 3](research_paper/Figure3_Network_KPI_Analysis.png)
 
-#### Figure 4 — Manufacturing Efficiency
+#### Figure 4 â€” Manufacturing Efficiency
 
 ![Figure 4](research_paper/Figure4_Manufacturing_Efficiency.png)
 
-#### Figure 5 — Network–Manufacturing Relationship
+#### Figure 5 â€” Networkâ€“Manufacturing Relationship
 
 ![Figure 5](research_paper/Figure5_Network_Manufacturing_Relationship.png)
 
-#### Figure 6 — ML Model Comparison
+#### Figure 6 â€” ML Model Comparison
 
 ![Figure 6](research_paper/Figure6_ML_Model_Comparison.png)
 
 ---
 
-# 🗂️ 9. PROJECT RESULTS
+# ðŸ—‚ï¸ 9. PROJECT RESULTS
 
 The `results/` directory contains the generated analytical and ML outputs.
 
-### 📊 Analysis Results
+### ðŸ“Š Analysis Results
 
 - `correlation_matrix.csv`
 - `efficiency_percentage.csv`
@@ -270,7 +277,7 @@ The `results/` directory contains the generated analytical and ML outputs.
 - `project_kpis.csv`
 - `research_summary.csv`
 
-### 🤖 Machine Learning Results
+### ðŸ¤– Machine Learning Results
 
 - `model_results.csv`
 - `cross_validation_results.csv`
@@ -282,39 +289,39 @@ The `results/` directory contains the generated analytical and ML outputs.
 
 ---
 
-# 📁 10. PROJECT STRUCTURE
+# ðŸ“ 10. PROJECT STRUCTURE
 
 ```text
 6G-Smart-Factory-Network-Analysis/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── day1.py
-├── day2.py
-├── ...
-├── day30.py
-│
-├── data/
-│   ├── datasets
-│   ├── analysis results
-│   └── project graphs
-│
-├── results/
-│   ├── ML results
-│   ├── predictions
-│   ├── errors
-│   └── project KPIs
-│
-└── research_paper/
-    ├── IEEE research paper
-    └── 6 research figures
+â”‚
+â”œâ”€â”€ app.py
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ README.md
+â”‚
+â”œâ”€â”€ day1.py
+â”œâ”€â”€ day2.py
+â”œâ”€â”€ ...
+â”œâ”€â”€ day30.py
+â”‚
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ datasets
+â”‚   â”œâ”€â”€ analysis results
+â”‚   â””â”€â”€ project graphs
+â”‚
+â”œâ”€â”€ results/
+â”‚   â”œâ”€â”€ ML results
+â”‚   â”œâ”€â”€ predictions
+â”‚   â”œâ”€â”€ errors
+â”‚   â””â”€â”€ project KPIs
+â”‚
+â””â”€â”€ research_paper/
+    â”œâ”€â”€ IEEE research paper
+    â””â”€â”€ 6 research figures
 ```
 
 ---
 
-# 🛠️ 11. TECHNOLOGIES USED
+# ðŸ› ï¸ 11. TECHNOLOGIES USED
 
 | Technology | Purpose |
 |---|---|
@@ -331,7 +338,7 @@ The `results/` directory contains the generated analytical and ML outputs.
 
 ---
 
-# 🚀 12. RUN THE PROJECT LOCALLY
+# ðŸš€ 12. RUN THE PROJECT LOCALLY
 
 ### Clone the repository
 
@@ -365,11 +372,11 @@ http://localhost:8501
 
 ---
 
-# 🌐 13. LIVE STREAMLIT DASHBOARD
+# ðŸŒ 13. LIVE STREAMLIT DASHBOARD
 
-## 🔴 LIVE PROJECT
+## ðŸ”´ LIVE PROJECT
 
-**👉 YOUR-LIVE-STREAMLIT-URL**
+**ðŸ‘‰ YOUR-LIVE-STREAMLIT-URL**
 
 After deployment, replace `YOUR-LIVE-STREAMLIT-URL` at the top of this README with the actual Streamlit URL.
 
@@ -377,42 +384,42 @@ Streamlit Community Cloud creates a unique `streamlit.app` URL after successful 
 
 ---
 
-# 💻 14. GITHUB REPOSITORY
+# ðŸ’» 14. GITHUB REPOSITORY
 
-👉 https://github.com/snehassneha4578-collab/Project-Impact-of-6G-Network-Performance-on-Manufacturing-Efficiency-in-Smart-Factories
+ðŸ‘‰ https://github.com/snehassneha4578-collab/Project-Impact-of-6G-Network-Performance-on-Manufacturing-Efficiency-in-Smart-Factories
 
 ---
 
-# ⭐ 15. PROJECT HIGHLIGHTS
+# â­ 15. PROJECT HIGHLIGHTS
 
-### 📡 6G Network Intelligence
+### ðŸ“¡ 6G Network Intelligence
 Analysis of network KPIs and their effect on smart manufacturing.
 
-### 🏭 Smart Factory Analytics
+### ðŸ­ Smart Factory Analytics
 Manufacturing efficiency, production speed, defect rate and error analysis.
 
-### 🔗 Relationship Discovery
+### ðŸ”— Relationship Discovery
 Statistical analysis between network and manufacturing indicators.
 
-### 🤖 Machine Learning
+### ðŸ¤– Machine Learning
 Efficiency prediction using machine learning models.
 
-### 📊 Visualization
+### ðŸ“Š Visualization
 Multiple generated graphs and research-quality figures.
 
-### 🚀 Interactive Dashboard
+### ðŸš€ Interactive Dashboard
 Professional Streamlit dashboard for exploring project results.
 
-### 📄 Research
+### ðŸ“„ Research
 Complete IEEE-style research paper with six research figures.
 
 ---
 
-# 📚 16. REFERENCE PAPER
+# ðŸ“š 16. REFERENCE PAPER
 
 **Zeydan, E., Arslan, S., & Turk, Y.**
 
-**“6G wireless communications for industrial automation: Scenarios, requirements and challenges.”**
+**â€œ6G wireless communications for industrial automation: Scenarios, requirements and challenges.â€**
 
 *Journal of Industrial Information Integration, Volume 42, Article 100732, 2024.*
 
@@ -422,7 +429,7 @@ DOI:
 
 ---
 
-# 👩‍💻 AUTHOR
+# ðŸ‘©â€ðŸ’» AUTHOR
 
 **Sneha S**
 
@@ -434,42 +441,43 @@ Davanagere, Karnataka, India
 
 ---
 
-# 🌟 PROJECT STATUS
+# ðŸŒŸ PROJECT STATUS
 
-**✅ 30-Day Project Completed**
+**âœ… 30-Day Project Completed**
 
-**✅ Data Analysis Completed**
+**âœ… Data Analysis Completed**
 
-**✅ EDA Completed**
+**âœ… EDA Completed**
 
-**✅ Network Analysis Completed**
+**âœ… Network Analysis Completed**
 
-**✅ Manufacturing Analysis Completed**
+**âœ… Manufacturing Analysis Completed**
 
-**✅ Relationship Analysis Completed**
+**âœ… Relationship Analysis Completed**
 
-**✅ Machine Learning Completed**
+**âœ… Machine Learning Completed**
 
-**✅ Model Evaluation Completed**
+**âœ… Model Evaluation Completed**
 
-**✅ Prediction & Error Analysis Completed**
+**âœ… Prediction & Error Analysis Completed**
 
-**✅ Research Paper Completed**
+**âœ… Research Paper Completed**
 
-**✅ Research Figures Completed**
+**âœ… Research Figures Completed**
 
-**✅ Streamlit Dashboard Completed**
+**âœ… Streamlit Dashboard Completed**
 
-**✅ GitHub Repository Completed**
+**âœ… GitHub Repository Completed**
 
-**🔴 Streamlit Deployment: Ready**
+**ðŸ”´ Streamlit Deployment: Ready**
 
 ---
 
 <p align="center">
 
-### 🚀 6G + AI + Smart Manufacturing
+### ðŸš€ 6G + AI + Smart Manufacturing
 
 **Turning Network Performance Data into Manufacturing Intelligence**
 
 </p>
+
