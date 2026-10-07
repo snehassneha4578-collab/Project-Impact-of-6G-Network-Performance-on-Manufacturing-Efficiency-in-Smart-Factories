@@ -1,157 +1,610 @@
-﻿import streamlit as st
+﻿import os
 import pandas as pd
-import os
+import streamlit as st
+import plotly.express as px
 
 st.set_page_config(
-    page_title="6G Smart Factory Network Analysis",
+    page_title="6G Smart Factory Intelligence",
     page_icon="🏭",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
-st.title("🏭 6G Smart Factory Network Analysis")
-st.subheader("Impact of 6G Network Performance on Manufacturing Efficiency")
-
-st.markdown("""
-This interactive dashboard analyzes the relationship between 6G network
-performance indicators and manufacturing efficiency in smart factories.
-""")
-
 ROOT = os.path.dirname(os.path.abspath(__file__))
+DATA = os.path.join(ROOT, "data")
 RESULTS = os.path.join(ROOT, "results")
 
-def load_csv(filename):
-    path = os.path.join(RESULTS, filename)
+# =========================================================
+# FUTURISTIC UI
+# =========================================================
+
+st.markdown("""
+<style>
+
+.stApp {
+    background:
+    radial-gradient(circle at 10% 10%, rgba(0,229,255,.10), transparent 30%),
+    radial-gradient(circle at 90% 20%, rgba(170,0,255,.10), transparent 30%),
+    linear-gradient(135deg,#040713,#081329 55%,#10051d);
+}
+
+.block-container {
+    max-width: 1450px;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.main-title {
+    text-align:center;
+    font-size:38px;
+    font-weight:900;
+    letter-spacing:1px;
+    background:linear-gradient(90deg,#00e5ff,#7c4dff,#ff3cac);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.subtitle {
+    text-align:center;
+    color:#a9b8d0;
+    font-size:15px;
+    margin-bottom:22px;
+}
+
+.section-title {
+    font-size:23px;
+    font-weight:800;
+    color:white;
+    margin-top:22px;
+    margin-bottom:12px;
+}
+
+.kpi-card {
+    background:linear-gradient(145deg,
+        rgba(12,31,60,.95),
+        rgba(30,10,55,.95));
+    border:1px solid rgba(0,229,255,.25);
+    border-radius:18px;
+    padding:16px;
+    text-align:center;
+    box-shadow:0 0 18px rgba(0,229,255,.08);
+    transition:.3s;
+}
+
+.kpi-card:hover {
+    transform:translateY(-4px);
+    box-shadow:0 0 28px rgba(0,229,255,.20);
+}
+
+.kpi-label {
+    color:#91a6c4;
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+.kpi-value {
+    color:#ffffff;
+    font-size:25px;
+    font-weight:900;
+    margin-top:5px;
+}
+
+.chart-card {
+    background:rgba(7,18,38,.72);
+    border:1px solid rgba(124,77,255,.22);
+    border-radius:16px;
+    padding:8px;
+    margin-bottom:12px;
+}
+
+.info-box {
+    background:rgba(8,22,44,.80);
+    border-left:4px solid #00e5ff;
+    border-radius:12px;
+    padding:15px;
+    color:#d7e5f8;
+}
+
+div[data-testid="stSidebar"] {
+    background:linear-gradient(180deg,#040817,#110622);
+}
+
+div[data-testid="stSidebar"] * {
+    color:#dce8ff;
+}
+
+[data-testid="stMetric"] {
+    background:rgba(10,25,50,.75);
+    border:1px solid rgba(124,77,255,.25);
+    border-radius:14px;
+    padding:12px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+# =========================================================
+# LOADERS
+# =========================================================
+
+@st.cache_data
+def load_csv(path):
     if os.path.exists(path):
-        return pd.read_csv(path)
+        try:
+            return pd.read_csv(path)
+        except:
+            return None
     return None
 
-# Sidebar
-st.sidebar.title("Navigation")
+def dfile(name):
+    return load_csv(os.path.join(DATA, name))
+
+def rfile(name):
+    return load_csv(os.path.join(RESULTS, name))
+
+def image_exists(name):
+    return os.path.exists(os.path.join(DATA, name))
+
+def show_chart_image(col, filename, title):
+    path = os.path.join(DATA, filename)
+
+    if os.path.exists(path):
+        with col:
+            st.markdown(
+                f'<div class="chart-card"><b style="color:white;">{title}</b>',
+                unsafe_allow_html=True
+            )
+            st.image(path, use_container_width=True)
+            st.markdown("</div>", unsafe_allow_html=True)
+
+def show_table(df, title):
+    if df is not None:
+        st.markdown(
+            f'<div class="section-title">{title}</div>',
+            unsafe_allow_html=True
+        )
+        st.dataframe(
+            df,
+            use_container_width=True,
+            height=300
+        )
+
+# =========================================================
+# HEADER
+# =========================================================
+
+st.markdown(
+    '<div class="main-title">🏭 6G SMART FACTORY INTELLIGENCE</div>',
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<div class="subtitle">6G Network Performance → Manufacturing Efficiency → Machine Learning</div>',
+    unsafe_allow_html=True
+)
+
+# =========================================================
+# SIDEBAR
+# =========================================================
+
+st.sidebar.markdown("## 🛰️ CONTROL CENTER")
+
 page = st.sidebar.radio(
-    "Select Analysis",
+    "Navigation",
     [
-        "Overview",
-        "Network Performance",
-        "Manufacturing Efficiency",
-        "Network–Manufacturing Relationships",
-        "Machine Learning",
-        "Research Results"
+        "🚀 Mission Control",
+        "📡 Network Analytics",
+        "🏭 Manufacturing Analytics",
+        "🔗 Network × Manufacturing",
+        "🤖 Machine Learning",
+        "📊 Research Results"
     ]
 )
 
-# Load results
-project_kpis = load_csv("project_kpis.csv")
-network_findings = load_csv("network_findings.csv")
-manufacturing_findings = load_csv("manufacturing_findings.csv")
-correlations = load_csv("network_manufacturing_correlations.csv")
-relationships = load_csv("network_manufacturing_relationships.csv")
-model_results = load_csv("model_results.csv")
-prediction_errors = load_csv("prediction_errors.csv")
-research_summary = load_csv("research_summary.csv")
+st.sidebar.markdown("---")
 
-if page == "Overview":
-    st.header("Project Overview")
+st.sidebar.markdown("""
+### PROJECT
+**6G Smart Factory**
 
-    c1, c2, c3, c4 = st.columns(4)
+**Technology**
+- Python
+- Pandas
+- NumPy
+- Plotly
+- Scikit-learn
+- Streamlit
 
-    c1.metric("Project Duration", "30 Days")
-    c2.metric("Analysis Domain", "6G + Smart Factory")
-    c3.metric("ML Models", "3")
-    c4.metric("Analysis Type", "Network + Manufacturing")
+**Analysis**
+- Network KPIs
+- Manufacturing KPIs
+- Correlations
+- Machine Learning
+""")
 
-    st.divider()
+# =========================================================
+# FILES
+# =========================================================
 
-    st.markdown("### Project Objectives")
-    st.write("""
-    • Analyze 6G network performance indicators  
-    • Study manufacturing efficiency indicators  
-    • Identify statistical relationships between network and manufacturing metrics  
-    • Build machine-learning models for efficiency-status prediction  
-    • Evaluate prediction performance and errors  
-    """)
+network = rfile("network_findings.csv")
+manufacturing = rfile("manufacturing_findings.csv")
+correlations = rfile("network_manufacturing_correlations.csv")
+relationships = rfile("network_manufacturing_relationships.csv")
+models = rfile("model_results.csv")
+errors = rfile("prediction_errors.csv")
+kpis = rfile("project_kpis.csv")
+research = rfile("research_summary.csv")
 
-    st.markdown("### Project Pipeline")
+# =========================================================
+# MISSION CONTROL
+# =========================================================
 
-    st.code(
-        "Data Collection → Preprocessing → EDA → KPI Analysis → "
-        "Relationship Analysis → Machine Learning → Evaluation → Insights"
+if page == "🚀 Mission Control":
+
+    st.markdown(
+        '<div class="section-title">⚡ Project Mission Control</div>',
+        unsafe_allow_html=True
     )
 
-elif page == "Network Performance":
-    st.header("📡 Network Performance Analysis")
+    c1,c2,c3,c4 = st.columns(4)
 
-    if network_findings is not None:
-        st.dataframe(network_findings, use_container_width=True)
-    else:
-        st.warning("Network findings file not available.")
+    cards = [
+        ("PROJECT", "30 DAYS"),
+        ("DOMAIN", "6G + AI"),
+        ("ML MODELS", "3"),
+        ("PIPELINE", "END-TO-END")
+    ]
 
-    st.markdown("### Network Indicators")
-    st.write("""
-    The analysis focuses on communication-performance indicators such as
-    latency, packet loss, network performance and related network metrics.
-    """)
+    for col,(label,value) in zip([c1,c2,c3,c4],cards):
+        with col:
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                    <div class="kpi-label">{label}</div>
+                    <div class="kpi-value">{value}</div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-elif page == "Manufacturing Efficiency":
-    st.header("🏭 Manufacturing Efficiency Analysis")
+    st.markdown(
+        '<div class="section-title">🧠 Analytical Pipeline</div>',
+        unsafe_allow_html=True
+    )
 
-    if manufacturing_findings is not None:
-        st.dataframe(manufacturing_findings, use_container_width=True)
-    else:
-        st.warning("Manufacturing findings file not available.")
+    st.markdown("""
+    <div class="info-box">
+    📥 Data → 🧹 Cleaning → 🔍 EDA → 📡 6G Analysis →
+    🏭 Manufacturing → 🔗 Relationships → 🤖 ML → 📊 Results
+    </div>
+    """, unsafe_allow_html=True)
 
-    st.markdown("### Manufacturing Indicators")
-    st.write("""
-    Manufacturing-side analysis examines production speed, efficiency,
-    error-related indicators and other operational measurements.
-    """)
+    st.markdown(
+        '<div class="section-title">📈 Key Visualizations</div>',
+        unsafe_allow_html=True
+    )
 
-elif page == "Network–Manufacturing Relationships":
-    st.header("🔗 Network–Manufacturing Relationship Analysis")
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "network_performance_index.png",
+        "📡 Network Performance Index"
+    )
+
+    show_chart_image(
+        c2,
+        "efficiency_distribution.png",
+        "🏭 Efficiency Distribution"
+    )
+
+# =========================================================
+# NETWORK
+# =========================================================
+
+elif page == "📡 Network Analytics":
+
+    st.markdown(
+        '<div class="section-title">📡 6G Network Performance Analytics</div>',
+        unsafe_allow_html=True
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "latency_distribution.png",
+        "⏱️ Latency Distribution"
+    )
+
+    show_chart_image(
+        c2,
+        "packet_loss_distribution.png",
+        "📦 Packet Loss Distribution"
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "latency_vs_efficiency.png",
+        "⏱️ Latency vs Efficiency"
+    )
+
+    show_chart_image(
+        c2,
+        "latency_vs_error_rate.png",
+        "⚠️ Latency vs Error Rate"
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "latency_vs_production_speed.png",
+        "🏭 Latency vs Production Speed"
+    )
+
+    show_chart_image(
+        c2,
+        "packet_loss_vs_efficiency.png",
+        "📦 Packet Loss vs Efficiency"
+    )
+
+    show_table(network, "📋 Network Findings")
+
+# =========================================================
+# MANUFACTURING
+# =========================================================
+
+elif page == "🏭 Manufacturing Analytics":
+
+    st.markdown(
+        '<div class="section-title">🏭 Manufacturing Efficiency Analytics</div>',
+        unsafe_allow_html=True
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "production_speed_distribution.png",
+        "⚙️ Production Speed Distribution"
+    )
+
+    show_chart_image(
+        c2,
+        "efficiency_distribution.png",
+        "📊 Efficiency Distribution"
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "production_speed_by_efficiency.png",
+        "⚙️ Production Speed by Efficiency"
+    )
+
+    show_chart_image(
+        c2,
+        "packet_loss_efficiency.png",
+        "📦 Packet Loss Efficiency"
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "latency_vs_production_speed.png",
+        "⏱️ Latency vs Production Speed"
+    )
+
+    show_chart_image(
+        c2,
+        "latency_vs_efficiency.png",
+        "⏱️ Latency vs Efficiency"
+    )
+
+    show_table(manufacturing, "📋 Manufacturing Findings")
+
+# =========================================================
+# RELATIONSHIPS
+# =========================================================
+
+elif page == "🔗 Network × Manufacturing":
+
+    st.markdown(
+        '<div class="section-title">🔗 Network × Manufacturing Intelligence</div>',
+        unsafe_allow_html=True
+    )
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "network_vs_manufacturing_importance.png",
+        "📊 Network vs Manufacturing Importance"
+    )
+
+    show_chart_image(
+        c2,
+        "feature_importance.png",
+        "⭐ Feature Importance"
+    )
 
     if correlations is not None:
-        st.subheader("Correlation Results")
-        st.dataframe(correlations, use_container_width=True)
+
+        st.markdown(
+            '<div class="section-title">📈 Correlation Data</div>',
+            unsafe_allow_html=True
+        )
+
+        st.dataframe(
+            correlations,
+            use_container_width=True,
+            height=320
+        )
 
     if relationships is not None:
-        st.subheader("Relationship Results")
-        st.dataframe(relationships, use_container_width=True)
+
+        st.markdown(
+            '<div class="section-title">🔗 Relationship Results</div>',
+            unsafe_allow_html=True
+        )
+
+        st.dataframe(
+            relationships,
+            use_container_width=True,
+            height=320
+        )
 
     st.info(
-        "Correlation indicates statistical association and should not be "
-        "interpreted as proof of causation."
+        "Correlation indicates statistical association and should not be interpreted as proof of causation."
     )
 
-elif page == "Machine Learning":
-    st.header("🤖 Machine Learning Analysis")
+# =========================================================
+# MACHINE LEARNING
+# =========================================================
 
-    if model_results is not None:
-        st.subheader("Model Results")
-        st.dataframe(model_results, use_container_width=True)
+elif page == "🤖 Machine Learning":
 
-    st.markdown("### Models")
-    st.write("""
-    • Logistic Regression  
-    • Decision Tree  
-    • Random Forest  
-    """)
+    st.markdown(
+        '<div class="section-title">🤖 Machine Learning Intelligence</div>',
+        unsafe_allow_html=True
+    )
 
-    if prediction_errors is not None:
-        st.subheader("Prediction Error Analysis")
-        st.dataframe(prediction_errors, use_container_width=True)
+    if models is not None:
 
-elif page == "Research Results":
-    st.header("📊 Research Summary")
+        show_table(
+            models,
+            "📊 Model Evaluation"
+        )
 
-    if research_summary is not None:
-        st.dataframe(research_summary, use_container_width=True)
+        numeric = models.select_dtypes(
+            include="number"
+        ).columns.tolist()
 
-    if project_kpis is not None:
-        st.subheader("Project KPIs")
-        st.dataframe(project_kpis, use_container_width=True)
+        if len(numeric) > 0:
 
-st.divider()
+            xcol = models.columns[0]
+            ycol = numeric[-1]
 
-st.caption(
-    "6G Smart Factory Network Analysis & Machine Learning | "
-    "Unified Mentor Project | Sneha S"
+            try:
+
+                fig = px.bar(
+                    models,
+                    x=xcol,
+                    y=ycol,
+                    color=xcol,
+                    template="plotly_dark",
+                    title="Machine Learning Model Comparison"
+                )
+
+                fig.update_layout(
+                    height=430,
+                    margin=dict(l=30,r=30,t=60,b=40),
+                    font=dict(size=12)
+                )
+
+                st.plotly_chart(
+                    fig,
+                    use_container_width=True
+                )
+
+            except:
+                pass
+
+    c1,c2 = st.columns(2)
+
+    show_chart_image(
+        c1,
+        "feature_importance.png",
+        "⭐ Feature Importance"
+    )
+
+    show_chart_image(
+        c2,
+        "network_vs_manufacturing_importance.png",
+        "🔗 Network vs Manufacturing Importance"
+    )
+
+    show_table(
+        errors,
+        "⚠️ Prediction Error Analysis"
+    )
+
+# =========================================================
+# RESEARCH
+# =========================================================
+
+elif page == "📊 Research Results":
+
+    st.markdown(
+        '<div class="section-title">📊 Research Results & Evidence</div>',
+        unsafe_allow_html=True
+    )
+
+    if research is not None:
+        show_table(
+            research,
+            "📚 Research Summary"
+        )
+
+    if kpis is not None:
+        show_table(
+            kpis,
+            "📈 Project KPIs"
+        )
+
+    st.markdown(
+        '<div class="section-title">🗂️ Generated Evidence</div>',
+        unsafe_allow_html=True
+    )
+
+    evidence = [
+        "correlation_matrix.csv",
+        "cross_validation_results.csv",
+        "efficiency_percentage.csv",
+        "efficiency_summary.csv",
+        "feature_importance.csv",
+        "manufacturing_findings.csv",
+        "model_results.csv",
+        "network_findings.csv",
+        "network_manufacturing_correlations.csv",
+        "network_manufacturing_relationships.csv",
+        "predictions.csv",
+        "prediction_errors.csv",
+        "project_kpis.csv",
+        "research_summary.csv"
+    ]
+
+    for i in range(0,len(evidence),3):
+
+        cols = st.columns(3)
+
+        for col,file in zip(cols,evidence[i:i+3]):
+
+            if os.path.exists(os.path.join(RESULTS,file)):
+                with col:
+                    st.success("✓ " + file)
+
+# =========================================================
+# FOOTER
+# =========================================================
+
+st.markdown("---")
+
+st.markdown(
+    """
+    <div style="
+        text-align:center;
+        color:#8295b3;
+        font-size:13px;
+        padding:8px;">
+        <b>6G Smart Factory Network Analysis & Machine Learning</b><br>
+        Unified Mentor Project • Sneha S • Electronics & Communication Engineering
+    </div>
+    """,
+    unsafe_allow_html=True
 )
