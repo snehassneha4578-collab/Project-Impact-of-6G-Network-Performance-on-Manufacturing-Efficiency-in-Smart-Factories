@@ -1,310 +1,227 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:7F00FF,100:FF00CC&height=220&section=header&text=6G%20SMART%20FACTORY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Network%20Analysis%20%7C%20Machine%20Learning%20%7C%20Smart%20Manufacturing&descAlignY=60&descSize=18"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&width=900&lines=Impact+of+6G+Network+Performance+on+Manufacturing+Efficiency;6G+Network+Analysis+%7C+Machine+Learning;Smart+Factory+Analytics+%7C+Interactive+Visualization;Data+Science+%7C+Research+%7C+Streamlit+Dashboard" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,25:0066FF,50:7B2CFF,75:FF00C8,100:FF0066&height=250&section=header&text=6G%20SMART%20FACTORY&fontSize=52&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=NETWORK%20INTELLIGENCE%20%7C%20MACHINE%20LEARNING%20%7C%20SMART%20MANUFACTURING&descSize=17&descAlignY=60"/>
 
 <br>
 
-<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
-<img src="https://img.shields.io/badge/LIVE%20STREAMLIT%20DASHBOARD-00C853?style=for-the-badge&logo=streamlit&logoColor=white"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=25&duration=2500&pause=700&color=00F5FF&center=true&vCenter=true&width=1000&lines=6G+NETWORK+PERFORMANCE+ANALYSIS;SMART+FACTORY+INTELLIGENCE;MACHINE+LEARNING+FOR+MANUFACTURING;NETWORK+%2B+MANUFACTURING+CORRELATION;INTERACTIVE+STREAMLIT+ANALYTICS;DATA+SCIENCE+%7C+AI+%7C+6G+RESEARCH"/>
 
-<a href="https://github.com/snehassneha4578-collab/Project-Impact-of-6G-Network-Performance-on-Manufacturing-Efficiency-in-Smart-Factories">
-<img src="https://img.shields.io/badge/GITHUB%20REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<br><br>
+
+<img src="https://img.shields.io/badge/PROJECT-COMPLETED-00FF88?style=for-the-badge&labelColor=090014"/>
+<img src="https://img.shields.io/badge/30%20DAY%20PROJECT-00E5FF?style=for-the-badge&labelColor=090014"/>
+<img src="https://img.shields.io/badge/6G%20%2B%20AI-8A2BE2?style=for-the-badge&labelColor=090014"/>
+<img src="https://img.shields.io/badge/STREAMLIT-LIVE-FF4B4B?style=for-the-badge&labelColor=090014"/>
+
+<br><br>
+
+<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
+<img src="https://img.shields.io/badge/LAUNCH%20LIVE%20DASHBOARD-00FF88?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=06130D"/>
 </a>
 
 <a href="research_paper/6G_Smart_Factory_IEEE_Research_Paper.pdf">
-<img src="https://img.shields.io/badge/RESEARCH%20PAPER-8E24AA?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+<img src="https://img.shields.io/badge/READ%20RESEARCH%20PAPER-FF00CC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=160012"/>
 </a>
 
-<br><br>
-
-<img src="https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=flat-square"/>
-<img src="https://img.shields.io/badge/PROJECT-30%20DAYS-00BCD4?style=flat-square"/>
-<img src="https://img.shields.io/badge/DOMAIN-6G%20%7C%20AI%20%7C%20ML-7E57C2?style=flat-square"/>
-<img src="https://img.shields.io/badge/DASHBOARD-LIVE-FF4B4B?style=flat-square"/>
-
 </div>
-
----
-
-<div align="center">
-
-# 6G Smart Factory Network Analysis & Machine Learning
-
-### Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories
-
-</div>
-
----
-
-## PROJECT AT A GLANCE
-
-<table>
-<tr>
-<td width="50%">
-
-### Network Intelligence
-
-- 6G latency analysis
-- Packet loss analysis
-- Network performance analysis
-- Network KPI relationships
-- Network-manufacturing correlations
-
-</td>
-
-<td width="50%">
-
-### Manufacturing Intelligence
-
-- Manufacturing efficiency
-- Production speed
-- Error rate
-- Defect rate
-- Efficiency prediction
-
-</td>
-</tr>
-</table>
-
----
-
-## LIVE INTERACTIVE DASHBOARD
-
-<div align="center">
-
-<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
-
-<img src="https://img.shields.io/badge/OPEN%20LIVE%20DASHBOARD-00C853?style=for-the-badge&logo=streamlit&logoColor=white"/>
-
-</a>
-
-<br><br>
-
-<b>Explore the complete project interactively.</b>
 
 <br>
 
-Network KPIs • Manufacturing KPIs • Machine Learning • Predictions • Errors • Feature Importance • Research Findings
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,50:7B2CFF,100:FF00C8&height=6"/>
 
 </div>
 
 ---
 
-# PROJECT VISION
-
-The rapid development of **6G wireless communication** is expected to enable highly connected and intelligent industrial environments.
-
-This project investigates how communication performance can influence manufacturing performance inside a **smart factory environment**.
-
-The analysis connects:
-
 <div align="center">
 
-**6G NETWORK PERFORMANCE**
+# <font color="#00F5FF">6G SMART FACTORY</font>
 
-↓
+### <font color="#FF00CC">Network Analysis & Machine Learning</font>
 
-**COMMUNICATION QUALITY**
+<br>
 
-↓
+<font color="#00FF88">
 
-**MANUFACTURING OPERATIONS**
+**Impact of 6G Network Performance on Manufacturing Efficiency in Smart Factories**
 
-↓
-
-**PRODUCTION PERFORMANCE**
-
-↓
-
-**MANUFACTURING EFFICIENCY**
-
-</div>
-
-The project combines **data science, machine learning, network analysis, manufacturing analytics and interactive visualization** into one complete research-oriented system.
-
----
-
-# CORE OBJECTIVES
-
-<table>
-<tr>
-<th>Objective</th>
-<th>What the Project Does</th>
-</tr>
-
-<tr>
-<td><b>Network Analysis</b></td>
-<td>Studies important 6G communication performance parameters.</td>
-</tr>
-
-<tr>
-<td><b>Manufacturing Analysis</b></td>
-<td>Analyzes manufacturing efficiency and production KPIs.</td>
-</tr>
-
-<tr>
-<td><b>Relationship Analysis</b></td>
-<td>Identifies relationships between network and manufacturing parameters.</td>
-</tr>
-
-<tr>
-<td><b>Machine Learning</b></td>
-<td>Builds models for manufacturing efficiency prediction.</td>
-</tr>
-
-<tr>
-<td><b>Model Evaluation</b></td>
-<td>Compares model performance using evaluation techniques.</td>
-</tr>
-
-<tr>
-<td><b>Error Analysis</b></td>
-<td>Analyzes prediction errors and model behavior.</td>
-</tr>
-
-<tr>
-<td><b>Visualization</b></td>
-<td>Creates graphs and an interactive Streamlit dashboard.</td>
-</tr>
-
-<tr>
-<td><b>Research</b></td>
-<td>Documents the complete work in an IEEE-style research paper.</td>
-</tr>
-
-</table>
-
----
-
-# TECHNOLOGY STACK
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,git,github" />
+</font>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-F7931E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data%20Science-00BCD4?style=for-the-badge"/>
+<font color="#AAAAAA">
+
+A complete Data Science + Machine Learning project for analyzing the relationship between 6G network performance and smart manufacturing efficiency.
+
+</font>
 
 </div>
 
 ---
-
-# COMPLETE PROJECT PIPELINE
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3"/>
 
-### 01 — DATA
+# <font color="#00F5FF">PROJECT VISION</font>
 
-6G Network Data
+</div>
 
-↓
+<div align="center">
 
-### 02 — PREPROCESSING
+<table>
+<tr>
+<td align="center">
 
-Cleaning • Transformation • Preparation
+<font size="5">NETWORK</font>
 
-↓
+<br>
 
-### 03 — EDA
+<font color="#00F5FF">
 
-Exploratory Data Analysis
+**6G PERFORMANCE**
 
-↓
+Latency  
+Packet Loss  
+Network Performance
 
-### 04 — NETWORK ANALYSIS
+</font>
 
-Latency • Packet Loss • Network Performance
+</td>
 
-↓
+<td align="center">
 
-### 05 — MANUFACTURING ANALYSIS
+<font size="6">➜</font>
 
-Efficiency • Production • Error • Defect
+</td>
 
-↓
+<td align="center">
 
-### 06 — RELATIONSHIP ANALYSIS
+<font size="5">INTELLIGENCE</font>
 
-Correlation • Relationships • KPI Analysis
+<br>
 
-↓
+<font color="#8A2BE2">
 
-### 07 — MACHINE LEARNING
+**MACHINE LEARNING**
 
-Training • Validation • Prediction
+Prediction  
+Correlation  
+Feature Importance
 
-↓
+</font>
 
-### 08 — MODEL EVALUATION
+</td>
 
-Performance • Comparison • Feature Importance
+<td align="center">
 
-↓
+<font size="6">➜</font>
 
-### 09 — ERROR ANALYSIS
+</td>
 
-Prediction Errors • Model Behavior
+<td align="center">
 
-↓
+<font size="5">FACTORY</font>
 
-### 10 — VISUALIZATION
+<br>
 
-Interactive Charts • Dashboard
+<font color="#FF00CC">
 
-↓
+**MANUFACTURING**
 
-### 11 — RESEARCH
+Efficiency  
+Production  
+Quality
 
-Research Paper • Findings • Conclusions
+</font>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,50:8A2BE2,100:FF00CC&height=4"/>
 
 </div>
 
 ---
 
-# NETWORK KPI ANALYSIS
+<div align="center">
 
-## Key Network Parameters
+# <font color="#FF00CC">LIVE INTERACTIVE EXPERIENCE</font>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=800&color=00FF88&center=true&vCenter=true&width=850&lines=Explore+the+6G+Smart+Factory+Dashboard;Analyze+Network+KPIs;Explore+Manufacturing+Efficiency;Compare+Machine+Learning+Models;Study+Predictions+and+Errors"/>
+
+<br>
+
+<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
+
+<img src="https://img.shields.io/badge/OPEN%20LIVE%20STREAMLIT%20DASHBOARD-00FF88?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=001A10"/>
+
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+# <font color="#00F5FF">WHAT THIS PROJECT DOES</font>
+
+</div>
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td width="33%" align="center">
 
-### LATENCY
+### <font color="#00F5FF">NETWORK</font>
 
-Communication delay affecting real-time industrial operations.
+6G latency analysis
 
-</td>
+Packet loss analysis
 
-<td align="center" width="25%">
+Network performance
 
-### PACKET LOSS
-
-Lost communication packets affecting reliable data transfer.
+Network relationships
 
 </td>
 
-<td align="center" width="25%">
+<td width="33%" align="center">
 
-### NETWORK PERFORMANCE
+### <font color="#8A2BE2">MACHINE LEARNING</font>
 
-Overall communication performance within the smart factory.
+Feature preparation
+
+Model training
+
+Cross-validation
+
+Prediction
+
+Error analysis
 
 </td>
 
-<td align="center" width="25%">
+<td width="33%" align="center">
 
-### RELATIONSHIPS
+### <font color="#FF00CC">MANUFACTURING</font>
 
-Connections between network performance and manufacturing KPIs.
+Efficiency
+
+Production speed
+
+Error rate
+
+Defect rate
+
+KPI analysis
 
 </td>
 </tr>
@@ -312,39 +229,75 @@ Connections between network performance and manufacturing KPIs.
 
 ---
 
-# MANUFACTURING KPI ANALYSIS
+<div align="center">
+
+# <font color="#00FF88">PROJECT OBJECTIVES</font>
+
+</div>
 
 <table>
 <tr>
-<td align="center">
+<td>
+
+<font color="#00F5FF">01</font>
+
+### Network Performance
+
+Analyze important 6G communication parameters.
+
+</td>
+
+<td>
+
+<font color="#8A2BE2">02</font>
 
 ### Manufacturing Efficiency
 
-Overall production efficiency.
+Study production and manufacturing KPIs.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+<font color="#FF00CC">03</font>
+
+### Relationship Analysis
+
+Identify relationships between network and manufacturing performance.
 
 </td>
 
-<td align="center">
+<td>
 
-### Production Speed
+<font color="#00FF88">04</font>
 
-Manufacturing output performance.
+### Machine Learning
+
+Build models for manufacturing efficiency analysis.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+<font color="#FFAA00">05</font>
+
+### Error Analysis
+
+Study prediction behavior and model errors.
 
 </td>
 
-<td align="center">
+<td>
 
-### Error Rate
+<font color="#00E5FF">06</font>
 
-Operational error behavior.
+### Interactive Dashboard
 
-</td>
-
-<td align="center">
-
-### Defect Rate
-
-Manufacturing quality indicator.
+Present the complete analysis through Streamlit.
 
 </td>
 </tr>
@@ -352,29 +305,187 @@ Manufacturing quality indicator.
 
 ---
 
-# DATA VISUALIZATION GALLERY
+<div align="center">
 
-## Efficiency Analysis
+# <font color="#FFAA00">TECHNOLOGY UNIVERSE</font>
 
-### Efficiency Distribution
+<br>
 
-<img src="data/efficiency_distribution.png" width="850"/>
+<img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,git,github" />
 
-### Production Speed by Efficiency
+<br><br>
 
-<img src="data/production_speed_by_efficiency.png" width="850"/>
+<img src="https://img.shields.io/badge/PLOTLY-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+<img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/MACHINE%20LEARNING-F7931E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DATA%20SCIENCE-00BCD4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SMART%20MANUFACTURING-7E57C2?style=for-the-badge"/>
 
-### Defect Rate by Efficiency
-
-<img src="data/defect_rate_by_efficiency.png" width="850"/>
-
-### Error Rate by Efficiency
-
-<img src="data/error_rate_by_efficiency.png" width="850"/>
+</div>
 
 ---
 
-## Latency Analysis
+<div align="center">
+
+# <font color="#00F5FF">THE INTELLIGENT PIPELINE</font>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=600&color=FF00CC&center=true&vCenter=true&width=950&lines=DATA+%E2%86%92+PREPROCESSING+%E2%86%92+EDA;NETWORK+ANALYSIS+%E2%86%92+MANUFACTURING+ANALYSIS;CORRELATION+%E2%86%92+MACHINE+LEARNING;EVALUATION+%E2%86%92+PREDICTION+%E2%86%92+ERROR+ANALYSIS;RESULTS+%E2%86%92+DASHBOARD+%E2%86%92+RESEARCH"/>
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td align="center"><font color="#00F5FF"><b>01</b></font><br>Data</td>
+<td align="center">→</td>
+<td align="center"><font color="#00E5FF"><b>02</b></font><br>Preprocessing</td>
+<td align="center">→</td>
+<td align="center"><font color="#7B2CFF"><b>03</b></font><br>EDA</td>
+<td align="center">→</td>
+<td align="center"><font color="#FF00CC"><b>04</b></font><br>KPI Analysis</td>
+</tr>
+
+<tr>
+<td align="center"><font color="#FF00CC"><b>05</b></font><br>Correlation</td>
+<td align="center">→</td>
+<td align="center"><font color="#FFAA00"><b>06</b></font><br>ML Training</td>
+<td align="center">→</td>
+<td align="center"><font color="#00FF88"><b>07</b></font><br>Evaluation</td>
+<td align="center">→</td>
+<td align="center"><font color="#00F5FF"><b>08</b></font><br>Prediction</td>
+</tr>
+
+<tr>
+<td align="center"><font color="#8A2BE2"><b>09</b></font><br>Error Analysis</td>
+<td align="center">→</td>
+<td align="center"><font color="#FF00CC"><b>10</b></font><br>Visualization</td>
+<td align="center">→</td>
+<td align="center"><font color="#00FF88"><b>11</b></font><br>Dashboard</td>
+<td align="center">→</td>
+<td align="center"><font color="#00F5FF"><b>12</b></font><br>Research</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# <font color="#00F5FF">NETWORK INTELLIGENCE</font>
+
+</div>
+
+<table>
+<tr>
+<td align="center">
+
+<img src="https://img.shields.io/badge/LATENCY-00F5FF?style=for-the-badge"/>
+
+<br>
+
+Communication delay analysis
+
+</td>
+
+<td align="center">
+
+<img src="https://img.shields.io/badge/PACKET%20LOSS-FF00CC?style=for-the-badge"/>
+
+<br>
+
+Reliability analysis
+
+</td>
+
+<td align="center">
+
+<img src="https://img.shields.io/badge/NETWORK%20INDEX-8A2BE2?style=for-the-badge"/>
+
+<br>
+
+Overall performance analysis
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# <font color="#FF00CC">MANUFACTURING INTELLIGENCE</font>
+
+</div>
+
+<table>
+<tr>
+<td align="center">
+
+<img src="https://img.shields.io/badge/EFFICIENCY-00FF88?style=for-the-badge"/>
+
+<br>
+
+Manufacturing performance
+
+</td>
+
+<td align="center">
+
+<img src="https://img.shields.io/badge/PRODUCTION-00E5FF?style=for-the-badge"/>
+
+<br>
+
+Production speed
+
+</td>
+
+<td align="center">
+
+<img src="https://img.shields.io/badge/QUALITY-FFAA00?style=for-the-badge"/>
+
+<br>
+
+Error and defect analysis
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# <font color="#8A2BE2">DATA VISUALIZATION GALAXY</font>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=700&color=00F5FF&center=true&vCenter=true&width=900&lines=EFFICIENCY+ANALYSIS;LATENCY+ANALYSIS;PACKET+LOSS+ANALYSIS;NETWORK+PERFORMANCE;PRODUCTION+ANALYSIS;FEATURE+IMPORTANCE"/>
+
+</div>
+
+---
+
+## <font color="#00FF88">EFFICIENCY ANALYSIS</font>
+
+<div align="center">
+
+<img src="data/efficiency_distribution.png" width="850"/>
+
+<br><br>
+
+<img src="data/production_speed_by_efficiency.png" width="850"/>
+
+<br><br>
+
+<img src="data/defect_rate_by_efficiency.png" width="850"/>
+
+<br><br>
+
+<img src="data/error_rate_by_efficiency.png" width="850"/>
+
+</div>
+
+---
+
+## <font color="#00F5FF">LATENCY ANALYSIS</font>
 
 <table>
 <tr>
@@ -383,7 +494,6 @@ Manufacturing quality indicator.
 <img src="data/latency_distribution.png" width="100%"/>
 
 </td>
-
 <td width="50%">
 
 <img src="data/latency_vs_efficiency.png" width="100%"/>
@@ -397,7 +507,6 @@ Manufacturing quality indicator.
 <img src="data/latency_vs_error_rate.png" width="100%"/>
 
 </td>
-
 <td width="50%">
 
 <img src="data/latency_vs_production_speed.png" width="100%"/>
@@ -408,7 +517,7 @@ Manufacturing quality indicator.
 
 ---
 
-## Packet Loss Analysis
+## <font color="#FF00CC">PACKET LOSS ANALYSIS</font>
 
 <table>
 <tr>
@@ -417,7 +526,6 @@ Manufacturing quality indicator.
 <img src="data/packet_loss_distribution.png" width="100%"/>
 
 </td>
-
 <td width="50%">
 
 <img src="data/packet_loss_vs_efficiency.png" width="100%"/>
@@ -431,7 +539,6 @@ Manufacturing quality indicator.
 <img src="data/packet_loss_vs_error_rate.png" width="100%"/>
 
 </td>
-
 <td width="50%">
 
 <img src="data/packet_loss_vs_production_speed.png" width="100%"/>
@@ -442,119 +549,91 @@ Manufacturing quality indicator.
 
 ---
 
-## Network Performance
+## <font color="#8A2BE2">NETWORK PERFORMANCE</font>
 
 <div align="center">
 
-<img src="data/network_performance_index.png" width="850"/>
+<img src="data/network_performance_index.png" width="900"/>
 
 <br><br>
 
-<img src="data/network_vs_manufacturing_importance.png" width="850"/>
+<img src="data/network_vs_manufacturing_importance.png" width="900"/>
 
 </div>
 
 ---
 
-## Production Analysis
+## <font color="#FFAA00">PRODUCTION ANALYSIS</font>
 
 <div align="center">
 
-<img src="data/production_speed_distribution.png" width="850"/>
+<img src="data/production_speed_distribution.png" width="900"/>
 
 </div>
 
 ---
-
-# MACHINE LEARNING
-
-The project applies machine learning to study and predict manufacturing efficiency using relevant network and manufacturing features.
-
-## ML PIPELINE
 
 <div align="center">
 
-**DATA**
+# <font color="#00FF88">MACHINE LEARNING ENGINE</font>
 
-↓
-
-**FEATURE PREPARATION**
-
-↓
-
-**LABEL ENCODING**
-
-↓
-
-**MODEL TRAINING**
-
-↓
-
-**CROSS VALIDATION**
-
-↓
-
-**MODEL COMPARISON**
-
-↓
-
-**PREDICTION**
-
-↓
-
-**ERROR ANALYSIS**
-
-↓
-
-**FEATURE IMPORTANCE**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=600&color=FFAA00&center=true&vCenter=true&width=900&lines=FEATURE+ENGINEERING;MODEL+TRAINING;CROSS+VALIDATION;MODEL+COMPARISON;PREDICTION;ERROR+ANALYSIS;FEATURE+IMPORTANCE"/>
 
 </div>
-
----
-
-# FEATURE IMPORTANCE
-
-<div align="center">
-
-<img src="data/feature_importance.png" width="900"/>
-
-</div>
-
----
-
-# MACHINE LEARNING OUTPUTS
 
 <table>
 <tr>
 <td align="center">
 
-<b>Model Results</b>
+<font color="#00F5FF">
 
-Model performance comparison
+### DATA
 
-</td>
+</font>
 
-<td align="center">
-
-<b>Predictions</b>
-
-Manufacturing efficiency predictions
+Feature preparation
 
 </td>
 
+<td align="center">→</td>
+
 <td align="center">
 
-<b>Error Analysis</b>
+<font color="#8A2BE2">
 
-Prediction error investigation
+### TRAIN
+
+</font>
+
+Model training
 
 </td>
 
+<td align="center">→</td>
+
 <td align="center">
 
-<b>Feature Importance</b>
+<font color="#FF00CC">
 
-Important predictive features
+### VALIDATE
+
+</font>
+
+Cross-validation
+
+</td>
+
+<td align="center">→</td>
+
+<td align="center">
+
+<font color="#00FF88">
+
+### PREDICT
+
+</font>
+
+Efficiency prediction
 
 </td>
 </tr>
@@ -562,22 +641,36 @@ Important predictive features
 
 ---
 
-# RESULTS & OUTPUT FILES
+<div align="center">
+
+# <font color="#FFAA00">FEATURE IMPORTANCE</font>
+
+<img src="data/feature_importance.png" width="950"/>
+
+</div>
+
+---
+
+<div align="center">
+
+# <font color="#00F5FF">RESULTS COMMAND CENTER</font>
+
+</div>
 
 <details>
-<summary><b>Click to expand result files</b></summary>
+<summary><b><font color="#00FF88">CLICK TO EXPLORE RESULT FILES</font></b></summary>
 
 <br>
 
-| File | Purpose |
+| Result | Purpose |
 |---|---|
 | `correlation_matrix.csv` | Feature correlation analysis |
 | `cross_validation_results.csv` | Cross-validation results |
 | `efficiency_percentage.csv` | Efficiency analysis |
 | `efficiency_summary.csv` | Efficiency summary |
-| `feature_importance.csv` | Feature importance |
-| `final_model.pkl` | Final trained ML model |
-| `label_encoder.pkl` | Target label encoder |
+| `feature_importance.csv` | Important machine learning features |
+| `final_model.pkl` | Final trained model |
+| `label_encoder.pkl` | Encoded target labels |
 | `manufacturing_findings.csv` | Manufacturing findings |
 | `model_results.csv` | Model comparison |
 | `network_findings.csv` | Network findings |
@@ -585,21 +678,53 @@ Important predictive features
 | `network_manufacturing_relationships.csv` | Relationship analysis |
 | `network_relationships.csv` | Network relationships |
 | `predictions.csv` | Model predictions |
-| `prediction_errors.csv` | Prediction errors |
-| `project_kpis.csv` | Project KPIs |
+| `prediction_errors.csv` | Prediction error analysis |
+| `project_kpis.csv` | Project KPI summary |
 | `research_summary.csv` | Research findings |
 
 </details>
 
 ---
 
-# RESEARCH PAPER
+<div align="center">
+
+# <font color="#FF00CC">INTERACTIVE STREAMLIT DASHBOARD</font>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=19&pause=800&color=00FF88&center=true&vCenter=true&width=900&lines=NETWORK+KPI+MONITORING;MANUFACTURING+ANALYTICS;MACHINE+LEARNING+RESULTS;PREDICTION+ANALYSIS;ERROR+ANALYSIS;PROJECT+KPI+VISUALIZATION"/>
+
+<br><br>
+
+<table>
+<tr>
+<td align="center"><b>NETWORK</b><br>KPIs</td>
+<td align="center"><b>MANUFACTURING</b><br>Efficiency</td>
+<td align="center"><b>MACHINE</b><br>Learning</td>
+<td align="center"><b>PREDICTION</b><br>Analysis</td>
+<td align="center"><b>ERROR</b><br>Analysis</td>
+</tr>
+</table>
+
+<br>
+
+<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
+
+<img src="https://img.shields.io/badge/ENTER%20THE%20LIVE%20DASHBOARD-00FF88?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=001A10"/>
+
+</a>
+
+</div>
+
+---
 
 <div align="center">
 
+# <font color="#8A2BE2">RESEARCH PAPER</font>
+
+<br>
+
 <a href="research_paper/6G_Smart_Factory_IEEE_Research_Paper.pdf">
 
-<img src="https://img.shields.io/badge/OPEN%20IEEE%20RESEARCH%20PAPER-8E24AA?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+<img src="https://img.shields.io/badge/OPEN%20IEEE%20STYLE%20PAPER-FF00CC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 
 </a>
 
@@ -609,22 +734,26 @@ Important predictive features
 
 </div>
 
-## Reference Paper
+### Reference Paper
 
 Zeydan, E., Arslan, S., and Turk, Y.,
 
 **"6G wireless communications for industrial automation: Scenarios, requirements and challenges,"**
 
-Journal of Industrial Information Integration, Volume 42, Article 100732, November 2024.
+*Journal of Industrial Information Integration*, Volume 42, Article 100732, November 2024.
 
 DOI: `10.1016/j.jii.2024.100732`
 
 ---
 
-# RESEARCH FIGURES
+<div align="center">
+
+# <font color="#00F5FF">RESEARCH VISUALIZATION LAB</font>
+
+</div>
 
 <details>
-<summary><b>Figure 1 — Overall Project Framework</b></summary>
+<summary><b>FIGURE 1 — OVERALL PROJECT FRAMEWORK</b></summary>
 
 <br>
 
@@ -632,8 +761,10 @@ DOI: `10.1016/j.jii.2024.100732`
 
 </details>
 
+<br>
+
 <details>
-<summary><b>Figure 2 — Machine Learning Workflow</b></summary>
+<summary><b>FIGURE 2 — MACHINE LEARNING WORKFLOW</b></summary>
 
 <br>
 
@@ -641,8 +772,10 @@ DOI: `10.1016/j.jii.2024.100732`
 
 </details>
 
+<br>
+
 <details>
-<summary><b>Figure 3 — Network KPI Analysis</b></summary>
+<summary><b>FIGURE 3 — NETWORK KPI ANALYSIS</b></summary>
 
 <br>
 
@@ -650,8 +783,10 @@ DOI: `10.1016/j.jii.2024.100732`
 
 </details>
 
+<br>
+
 <details>
-<summary><b>Figure 4 — Manufacturing Efficiency</b></summary>
+<summary><b>FIGURE 4 — MANUFACTURING EFFICIENCY</b></summary>
 
 <br>
 
@@ -659,8 +794,10 @@ DOI: `10.1016/j.jii.2024.100732`
 
 </details>
 
+<br>
+
 <details>
-<summary><b>Figure 5 — Network and Manufacturing Relationship</b></summary>
+<summary><b>FIGURE 5 — NETWORK & MANUFACTURING RELATIONSHIP</b></summary>
 
 <br>
 
@@ -668,8 +805,10 @@ DOI: `10.1016/j.jii.2024.100732`
 
 </details>
 
+<br>
+
 <details>
-<summary><b>Figure 6 — Machine Learning Model Comparison</b></summary>
+<summary><b>FIGURE 6 — MACHINE LEARNING MODEL COMPARISON</b></summary>
 
 <br>
 
@@ -679,45 +818,60 @@ DOI: `10.1016/j.jii.2024.100732`
 
 ---
 
-# STREAMLIT DASHBOARD
-
 <div align="center">
 
-<img src="https://img.shields.io/badge/INTERACTIVE-DASHBOARD-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-
-<br><br>
-
-The dashboard brings the complete analysis together in one interactive interface.
-
-<br><br>
-
-| Dashboard Module | Function |
-|---|---|
-| Network KPIs | Monitor network performance |
-| Manufacturing KPIs | Analyze manufacturing efficiency |
-| Visualizations | Explore interactive graphs |
-| Machine Learning | View model results |
-| Feature Importance | Understand important features |
-| Predictions | Analyze predicted efficiency |
-| Error Analysis | Investigate model errors |
-| Project KPIs | Review key project metrics |
-| Research Findings | Explore analytical conclusions |
-
-<br>
-
-<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
-
-<img src="https://img.shields.io/badge/LAUNCH%20DASHBOARD-NOW-00C853?style=for-the-badge&logo=streamlit&logoColor=white"/>
-
-</a>
+# <font color="#00FF88">PROJECT ARCHITECTURE</font>
 
 </div>
 
----
-
-# PROJECT STRUCTURE
-
 ```text
+                    ┌─────────────────────────┐
+                    │       6G NETWORK        │
+                    │                         │
+                    │ Latency | Packet Loss   │
+                    │ Network Performance     │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │    DATA PROCESSING      │
+                    │                         │
+                    │ Cleaning | EDA | KPIs   │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │   RELATIONSHIP ANALYSIS │
+                    │                         │
+                    │ Correlation | Patterns  │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │   MACHINE LEARNING      │
+                    │                         │
+                    │ Training | Validation   │
+                    │ Prediction | Errors     │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │  SMART FACTORY INSIGHT  │
+                    │                         │
+                    │ Efficiency | Production │
+                    │ Quality | Performance   │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │  STREAMLIT DASHBOARD    │
+                    └─────────────────────────┘
+
+<div align="center">
+
+<font color="#FFAA00">PROJECT STRUCTURE</font>
+</div>
+
 6G-Smart-Factory-Network-Analysis/
 │
 ├── app.py
@@ -751,3 +905,196 @@ The dashboard brings the complete analysis together in one interactive interface
 │   └── Figure6_ML_Model_Comparison.png
 │
 └── README.md
+
+<div align="center">
+
+<font color="#00FF88">30-DAY DEVELOPMENT JOURNEY</font>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&pause=900&color=00F5FF&center=true&vCenter=true&width=900&lines=DAY+01+%E2%86%92+DATA;DAY+05+%E2%86%92+EDA;DAY+10+%E2%86%92+NETWORK+ANALYSIS;DAY+15+%E2%86%92+MANUFACTURING+ANALYSIS;DAY+20+%E2%86%92+MACHINE+LEARNING;DAY+25+%E2%86%92+MODEL+EVALUATION;DAY+30+%E2%86%92+FINAL+DASHBOARD+%2B+RESEARCH"/>
+
+
+<img src="https://img.shields.io/badge/DAY%2001%20→%20DAY%2030-00F5FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DATA%20→%20AI-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ANALYSIS%20→%20INSIGHT-FF00CC?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PROJECT%20→%20LIVE-00FF88?style=for-the-badge"/>
+
+</div>
+
+<div align="center">
+
+<font color="#00F5FF">PROJECT STATUS</font>
+<table>
+<tr>
+<th>Module</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Data Preprocessing</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Exploratory Data Analysis</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Network KPI Analysis</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Manufacturing Analysis</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Correlation Analysis</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Machine Learning</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Model Evaluation</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Prediction Analysis</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Error Analysis</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Research Paper</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+<tr>
+<td>Streamlit Dashboard</td>
+<td>🟢 LIVE</td>
+</tr>
+
+<tr>
+<td>GitHub Documentation</td>
+<td>🟢 COMPLETED</td>
+</tr>
+
+</table>
+
+</div>
+
+<div align="center">
+
+<font color="#FF00CC">FUTURE INTELLIGENCE</font>
+</div>
+
+<table>
+<tr>
+<td align="center">
+
+<font color="#00F5FF"><b>REAL-TIME 6G</b></font>
+
+Live network monitoring
+</td>
+
+<td align="center">
+
+<font color="#8A2BE2"><b>EDGE AI</b></font>
+
+Low-latency industrial intelligence
+</td>
+
+<td align="center">
+
+<font color="#FF00CC"><b>DIGITAL TWIN</b></font>
+
+Smart factory simulation
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<font color="#00FF88"><b>IoT</b></font>
+
+Real-time sensor integration
+</td>
+
+<td align="center">
+
+<font color="#FFAA00"><b>PREDICTIVE MAINTENANCE</b></font>
+
+Failure prediction
+</td>
+
+<td align="center">
+
+<font color="#00E5FF"><b>DEEP LEARNING</b></font>
+
+Advanced industrial prediction
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<font color="#00FF88">THE FINAL IDEA</font>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=25&pause=1000&color=00F5FF&center=true&vCenter=true&width=1000&lines=6G+NETWORKS;SMART+FACTORIES;DATA+SCIENCE;MACHINE+LEARNING;INTELLIGENT+MANUFACTURING;ONE+CONNECTED+ANALYTICS+SYSTEM"/>
+
+
+
+
+<font size="5">
+
+6G + NETWORK INTELLIGENCE + MACHINE LEARNING + SMART MANUFACTURING
+</font>
+
+
+
+
+<img src="https://img.shields.io/badge/NETWORK-00F5FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ML-FF00CC?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FACTORY-00FF88?style=for-the-badge"/>
+
+</div>
+
+<div align="center">
+
+<font color="#00F5FF">EXPLORE THE PROJECT</font>
+
+<a href="https://d6cmlowxpcwmmcnu3tpr2c.streamlit.app/">
+
+<img src="https://img.shields.io/badge/🚀%20LIVE%20DASHBOARD-00FF88?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=001A10"/>
+
+</a>
+
+<a href="https://github.com/snehassneha4578-collab/Project-Impact-of-6G-Network-Performance-on-Manufacturing-Efficiency-in-Smart-Factories">
+
+<img src="https://img.shields.io/badge/⭐%20GITHUB%20REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white"/>
+
+</a>
+
+<a href="research_paper/6G_Smart_Factory_IEEE_Research_Paper.pdf">
+
+<img src="https://img.shields.io/badge/📄%20RESEARCH%20PAPER-FF00CC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+
+</a>
+
+
+
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0066,25:FF00CC,50:7B2CFF,75:0066FF,100:00F5FF&height=180&section=footer&animation=twinkling"/>
+
+</div>
+```
